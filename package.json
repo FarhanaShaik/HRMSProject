@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build",
-    "build": "webpack --mode development --content-base src/ --inline --hot --history-api-fallback"
+    "build": "webpack --mode development --content-base src/ --inline --hot --history-api-fallback",
+    "deploy": "gh-pages -b master -d build"
   },
   "author": "",
   "license": "ISC",
